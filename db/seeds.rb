@@ -12,4 +12,5 @@ amazon = Customer.create(company: 'Amazon', address:'601 New Jersey Ave NW #900'
 
 google = Customer.create(company: 'Google', address:' 25 Massachusetts Ave NW #900', city:'Washington', state: 'DC', zip:'20001' )
 
-    
+
+
