@@ -4,6 +4,11 @@ class Api::V1::ProjectsController < ApplicationController
         render json: @projects.to_json(project_serializer_options)
       end
 
+      def create
+        @project = Project.create(project_params)
+        render json: @project.to_json(project_serializer_options)
+      end
+
 
       private
 
